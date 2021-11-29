@@ -76,6 +76,17 @@ Note:If the text contains special characters, please escape them according to th
                 <policyitem type="license" name="MIT" path="fuzz/libpsl_load_fuzzer.c" desc="not use this file"/>
                 <policyitem type="copyright" name="NULL" path="msvc/create-lists.bat" desc="not use this file"/>
                 <policyitem type="copyright" name="InvalidCopyright" path="src/psl.c" desc="not use this file"/>
+                <policyitem type="filepath" name="contrib/.*" desc="contrib file"/>
+                <policyitem type="filepath" name="docs/.*" desc="docs file"/>
+                <policyitem type="filepath" name="fuzz/.*" desc="fuzz file"/>
+                <policyitem type="filepath" name="include/.*" desc="include file"/>
+                <policyitem type="filepath" name="list/.*" desc="list file"/>
+                <policyitem type="filepath" name="m4/.*" desc="m4 file"/>
+                <policyitem type="filepath" name="msvc/.*" desc="msvc file"/>
+                <policyitem type="filepath" name="po/.*" desc="po file"/>
+                <policyitem type="filepath" name="src/.*" desc="src file"/>
+                <policyitem type="filepath" name="tests/.*" desc="tests file"/>
+                <policyitem type="filepath" name="tools/.*" desc="tools file"/>
             </policy>
         </policylist>
         <filefilterlist>
