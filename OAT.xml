@@ -59,34 +59,6 @@ Note:If the text contains special characters, please escape them according to th
         <licensefile>COPYING</licensefile>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="compatibility" name="InvalidLicense" path="src/Makefile.am" desc="the License of this file is MIT"/>
-                <policyitem type="compatibility" name="InvalidLicense" path="Makefile.am" desc="the License of this file is MIT"/>
-                <policyitem type="compatibility" name="GPL-3.0+" path="m4/ax_check_compile_flag.m4" desc="the License of this file is MIT"/>
-                <policyitem type="compatibility" name="Apache-2.0" path="BUILD.gn" desc="the License of this file is MIT"/>
-                <policyitem type="compatibility" name="Apache-2.0" path="config.h" desc="the License of this file is MIT"/>
-                <policyitem type="license" name="NoLicenseHeader" path=".dir-locals.el" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path="contrib/spell-checker" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path="src/Makefile.am" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path=".gitmodules" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path="fuzz/libpsl_load_fuzzer.dict" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path="src/libpsl-srcs.mk" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path=".travis_coveralls.sh" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path="docs/libpsl/Makefile.am" desc="not use this file"/>
-                <policyitem type="license" name="NoLicenseHeader" path="msvc/Makefile.vc" desc="not use this file"/>
-                <policyitem type="license" name="MIT" path="fuzz/libpsl_load_fuzzer.c" desc="not use this file"/>
-                <policyitem type="copyright" name="NULL" path="msvc/create-lists.bat" desc="not use this file"/>
-                <policyitem type="copyright" name="InvalidCopyright" path="src/psl.c" desc="not use this file"/>
-                <policyitem type="filepath" name="contrib/.*" desc="contrib file"/>
-                <policyitem type="filepath" name="docs/.*" desc="docs file"/>
-                <policyitem type="filepath" name="fuzz/.*" desc="fuzz file"/>
-                <policyitem type="filepath" name="include/.*" desc="include file"/>
-                <policyitem type="filepath" name="list/.*" desc="list file"/>
-                <policyitem type="filepath" name="m4/.*" desc="m4 file"/>
-                <policyitem type="filepath" name="msvc/.*" desc="msvc file"/>
-                <policyitem type="filepath" name="po/.*" desc="po file"/>
-                <policyitem type="filepath" name="src/.*" desc="src file"/>
-                <policyitem type="filepath" name="tests/.*" desc="tests file"/>
-                <policyitem type="filepath" name="tools/.*" desc="tools file"/>
             </policy>
         </policylist>
         <filefilterlist>
@@ -94,7 +66,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name=".*" desc="The files involved in compilation are the LGPL protocol.They are used in dynamic link mode."/>
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies">
-                <filteritem type="filepath" name="fuzz/libpsl_idn2_fuzzer.repro/clusterfuzz-testcase-minimized-5914812372484096" desc="Resource, config and certification binary."/>
+                <filteritem type="filepath" name=".*" desc="Resource, config and certification binary."/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
