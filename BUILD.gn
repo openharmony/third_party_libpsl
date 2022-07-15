@@ -35,6 +35,6 @@ ohos_source_set("psl_dynamic") {
 
 ohos_shared_library("libpsl") {
   deps = [ ":psl_dynamic" ]
-  part_name = "multimedia_media_standard"
+  part_name = "multimedia_player_framework"
   subsystem_name = "multimedia"
 }
